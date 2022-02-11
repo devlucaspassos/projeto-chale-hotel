@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+div#container {
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+    margin: 0px auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+div#top {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+div#logo-area {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9999px;
+}
+div#menu-area {
+    background: #0000ff;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+div#menu-content {
+    margin-left: 80px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+div#menu-locations {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding: 5px 0px;
+    font-size: 0.8em;
+    color: #8b8448;
+}
+div#menu-locations .locations {
+     float: left;
+     line-height: 2.1em;
+}
+a {
+    text-decoration: none;
+}
+.reservations {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+div#menu {
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+}
+ul #navigation {
+    float: left;
+}
+ul#navigation a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;  
+    color: #6e672c;    
+    font-weight: bold;
+    line-height: 30px;
+}
+ul#navigation a:hover {
+    background: #fdf6be;
+    transition: 0.1s;
+}
+.testimonial {
+    width: 226px;
+    height: 164px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+/* Content area */
+div#main-area {
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+}
+div#side-area {
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+.content {
+    margin: 0px auto;
+    width: 90%;
+}
+div#footer {
+    clear: both;
+    padding: 15px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
+}
+/* texts properties */
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 25px 0px;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/* side-area properties  */
+ul#benefits li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+ul#benefits li a img {
+    float: left;
+    margin-right: 8px;
+}
+ul#benefits li a p {
+    font-size: 0.9em;
+    color: #000;
+}
+ul#benefits li a h3 {
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0px;
+    background: url(../imagens/ornamento.png) no-repeat right;
+}
+ul#benefits li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
